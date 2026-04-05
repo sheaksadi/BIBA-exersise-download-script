@@ -1,21 +1,49 @@
-## Bash code to quickly download code assingments from exersise website. For OVGU BIBA (other cs programs might work But I havent tested)
+# BIBA Exercise Download Script
 
-I have only tested this for Data Structures and algorithms course. Should also work work with other courses that use the same portal just change the url in .env file.
+A bash script to quickly download assignment templates from the OVGU exercise portal.
+
+> Tested with the **Data Structures and Algorithms** course. Should work with other courses on the same portal — just update the `BASE_URL` in the `.env` file.
+
+---
+
+## Requirements
+
+- `curl`
+- `unzip`
+
+---
+
+## Setup
+```bash
+git clone https://github.com/sheaksadi/BIBA-exersise-download-script
+cd BIBA-exersise-download-script
+chmod +x exse.sh
+```
+
+Then edit the `.env` file and fill in your credentials:
+
+
+```
+USER=your.email%40st.ovgu.de
+PASSWORD=yourpassword
+BASE_URL=https://aud.vc.cs.ovgu.de
+```
+Check the `env` file for example.  When running add a `.` before env and update with your username and password.
 
 ## Usage
+```bash
+./exse.sh <week> <exercise(s)>
 ```
-git clone 
 
-cd 
-
-chmod +x exse.sh
-
-// to run 
-
+**Download a single exercise:**
+```bash
 ./exse.sh 1 1
-// here first one is the week number and then second number is the exersise number.
-
-./exse.sh 1 1,2,3
-// here second argumemnt also takes multiple numbers so multiple exersises can be downloaded at once.
-
 ```
+
+**Download multiple exercises at once:**
+```bash
+./exse.sh 1 1,2,3
+```
+
+
+
