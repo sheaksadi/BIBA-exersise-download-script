@@ -1,4 +1,4 @@
-# Bash code to quickly download code assingments from exersise website. For OVGU BIBA (other cs programs might work But I havent tested)
+## Bash code to quickly download code assingments from exersise website. For OVGU BIBA (other cs programs might work But I havent tested)
 
 I have only tested this for Data Structures and algorithms course. Should also work work with other courses that use the same portal just change the url in .env file.
 
