@@ -1,0 +1,5 @@
+# This is a example env file to run the script. When running add a . before env and update with your username and password.
+USER=sheak.sadi%40st.ovgu.de
+PASSWORD=*****************
+BASE_URL=https://aud.vc.cs.ovgu.de
+ 
