@@ -28,7 +28,7 @@ USER=your.email%40st.ovgu.de
 PASSWORD=yourpassword
 BASE_URL=https://aud.vc.cs.ovgu.de
 ```
-Check the `env` file for example.  When running add a `.` before env and update with your username and password.
+Check the `env` file for example.  When running add a `.` before `env` and update with your username and password.
 
 ## Usage
 ```bash
